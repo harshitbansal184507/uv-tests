@@ -1,0 +1,8 @@
+[project]
+name = "consumer"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["my-lib"]
+
+[tool.uv.sources]
+my-lib = { path = "/home/harshit_work/uv-tests/path-test/dist/my_lib-0.1.0-py3-none-any.whl" }

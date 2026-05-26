@@ -1,0 +1,5 @@
+[[index]]
+name = "local"
+url = "/home/harshit_work/uv-tests/05-uv-sync-registry/hermeto-output/deps/uv"
+format = "flat"
+default = true

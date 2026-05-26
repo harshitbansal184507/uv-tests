@@ -1,0 +1,31 @@
+DEBUG uv 0.11.2 (x86_64-unknown-linux-gnu)
+DEBUG Found project root: `/home/harshit_work/uv-tests/test_binary_for_limited_packages`
+DEBUG No workspace root found, using project root
+DEBUG Reading Python requests from version file at `/home/harshit_work/uv-tests/test_binary_for_limited_packages/.python-version`
+DEBUG Using Python request `3.10` from version file at `.python-version`
+DEBUG Checking for Python environment at: `.venv`
+DEBUG Using request connect timeout of 10s and read timeout of 30s
+DEBUG Searching for Python 3.10 in managed installations or search path
+DEBUG Searching for managed installations at `/home/harshit_work/.local/share/uv/python`
+DEBUG Skipping managed installation `cpython-3.12.13-linux-x86_64-gnu`: does not satisfy `3.10`
+DEBUG Found managed installation `cpython-3.10.20-linux-x86_64-gnu`
+DEBUG Found `cpython-3.10.20-linux-x86_64-gnu` at `/home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10` (managed installations)
+Using CPython 3.10.20
+Creating virtual environment at: .venv
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Using base executable for virtual environment: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Using request connect timeout of 10s and read timeout of 30s
+DEBUG Found 21 packages in `--find-links` entry: file:///home/harshit_work/uv-tests/test_binary_for_limited_packages/hermeto-output/deps/uv
+DEBUG Identified uncached distribution: markupsafe==2.1.5
+DEBUG Identified uncached distribution: requests==2.31.0
+DEBUG Identified uncached distribution: certifi==2026.5.20
+DEBUG Identified uncached distribution: charset-normalizer==3.4.7
+DEBUG Identified uncached distribution: idna==3.18
+DEBUG Identified uncached distribution: urllib3==2.7.0
+  × Failed to download `charset-normalizer==3.4.7`
+  ├─▶ Failed to read from the distribution cache
+  ╰─▶ failed to query metadata of file
+      `/hermeto-output/deps/uv/charset_normalizer-3.4.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl`:
+      No such file or directory (os error 2)
+  help: `charset-normalizer` (v3.4.7) was included because `test-binary-for-limited-packages` (v0.1.0) depends
+        on `requests` (v2.31.0) which depends on `charset-normalizer`

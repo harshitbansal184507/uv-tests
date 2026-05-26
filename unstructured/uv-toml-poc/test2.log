@@ -1,0 +1,35 @@
+DEBUG uv 0.11.2 (x86_64-unknown-linux-gnu)
+DEBUG Disabling the uv cache due to `--no-cache`
+DEBUG Found project root: `/home/harshit_work/uv-tests/uv-toml-poc`
+DEBUG No workspace root found, using project root
+DEBUG No Python version file found in workspace: /home/harshit_work/uv-tests/uv-toml-poc
+DEBUG Using Python request `>=3.10` from `requires-python` metadata
+DEBUG Checking for Python environment at: `.venv`
+DEBUG Using request connect timeout of 10s and read timeout of 30s
+DEBUG Searching for Python >=3.10 in managed installations or search path
+DEBUG Searching for managed installations at `/home/harshit_work/.local/share/uv/python`
+DEBUG Found managed installation `cpython-3.12.13-linux-x86_64-gnu`
+DEBUG Found `cpython-3.12.13-linux-x86_64-gnu` at `/home/harshit_work/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12` (managed installations)
+Using CPython 3.12.13
+Creating virtual environment at: .venv
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12
+DEBUG Using base executable for virtual environment: /home/harshit_work/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12
+DEBUG Using request connect timeout of 10s and read timeout of 30s
+DEBUG Ignoring `--find-links` entry (expected a wheel or source distribution filename): /home/harshit_work/uv-tests/uv-toml-poc/prefetch/httpx-609df7ecc0f7cb10a1c998aa9c269bba77337c5f.tar.gz
+DEBUG Found 8 packages in `--find-links` entry: file:///home/harshit_work/uv-tests/uv-toml-poc/prefetch
+DEBUG Identified uncached distribution: anyio==4.13.0
+DEBUG Identified uncached distribution: httpx @ file:///home/harshit_work/uv-tests/uv-toml-poc/prefetch/httpx-609df7ecc0f7cb10a1c998aa9c269bba77337c5f.tar.gz
+DEBUG Identified uncached distribution: idna==3.13
+DEBUG Identified uncached distribution: typing-extensions==4.15.0
+DEBUG Identified uncached distribution: certifi==2026.4.22
+DEBUG Identified uncached distribution: httpcore==1.0.9
+DEBUG Identified uncached distribution: sniffio==1.3.1
+DEBUG Identified uncached distribution: h11==0.16.0
+DEBUG Unpacking source distribution: httpx @ file:///home/harshit_work/uv-tests/uv-toml-poc/prefetch/httpx-609df7ecc0f7cb10a1c998aa9c269bba77337c5f.tar.gz
+DEBUG Unpacking for build: /home/harshit_work/uv-tests/uv-toml-poc/prefetch/httpx-609df7ecc0f7cb10a1c998aa9c269bba77337c5f.tar.gz
+DEBUG No cache entry for: https://files.pythonhosted.org/packages/22/30/7cd8fdcdfbc5b869528b079bfb76dcdf6056b1a2097a662e5e8c04f42965/certifi-2026.4.22-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://files.pythonhosted.org/packages/22/30/7cd8fdcdfbc5b869528b079bfb76dcdf6056b1a2097a662e5e8c04f42965/certifi-2026.4.22-py3-none-any.whl
+  × Failed to download `certifi==2026.4.22`
+  ╰─▶ Network connectivity is disabled, but the requested data wasn't found in the cache for:
+      `https://files.pythonhosted.org/packages/22/30/7cd8fdcdfbc5b869528b079bfb76dcdf6056b1a2097a662e5e8c04f42965/certifi-2026.4.22-py3-none-any.whl`
+  help: `certifi` (v2026.4.22) was included because `poc` (v0.1.0) depends on `httpx` (v0.27.2) which depends on `certifi`

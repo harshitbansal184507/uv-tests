@@ -1,0 +1,7 @@
+README.md
+main.py
+pyproject.toml
+gitlab_test.egg-info/PKG-INFO
+gitlab_test.egg-info/SOURCES.txt
+gitlab_test.egg-info/dependency_links.txt
+gitlab_test.egg-info/top_level.txt

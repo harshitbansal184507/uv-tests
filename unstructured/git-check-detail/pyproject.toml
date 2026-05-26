@@ -1,0 +1,13 @@
+[project]
+name = "uvgittest"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["httpx", "flask", "requests"]
+
+[tool.uv.sources]
+# tag ref
+httpx    = { git = "https://github.com/encode/httpx", tag = "0.27.2" }
+# branch ref
+flask    = { git = "https://github.com/pallets/flask", branch = "main" }
+# git+ prefix + rev ref (tests both prefix stripping and rev behavior)
+requests = { git = "git+https://github.com/psf/requests", rev = "147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4" }

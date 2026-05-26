@@ -1,0 +1,7 @@
+[project]
+name = "my-project"
+version = "0.1.0"
+dependencies = ["atpublic"]
+
+[tool.uv.sources]
+atpublic = { git = "https://gitlab.com/flufl/public", branch = "main" }

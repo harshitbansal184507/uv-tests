@@ -1,0 +1,15 @@
+[project]
+name = "test-uv-binary-for-limited-packages"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "markupsafe>=3.0.3",
+    "requests>=2.34.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "test__binary_for_limited_packages",
+]

@@ -7,6 +7,7 @@ COPY hermeto.env /hermeto.env
 COPY pyproject.toml /app/pyproject.toml
 COPY uv.lock /app/uv.lock
 COPY README.md /app/README.md
+COPY main.py /app/main.py
 
 WORKDIR /app
 
@@ -14,7 +15,6 @@ WORKDIR /app
 RUN . /hermeto.env && uv build --wheel --verbose
 
 # uv sync path
-RUN . /hermeto.env && uv sync  --verbose
+RUN . /hermeto.env && uv sync --verbose
 
-
-RUN .venv/bin/python -c "import click; import flask; import httpx; print('all imports ok')"
+RUN .venv/bin/python main.py

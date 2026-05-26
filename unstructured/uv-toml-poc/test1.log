@@ -1,0 +1,1 @@
+error: Failed to parse: `uv.toml`. The `sources` field is not allowed in a `uv.toml` file. `sources` is only applicable in the context of a project, and should be placed in a `pyproject.toml` file instead.

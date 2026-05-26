@@ -1,0 +1,24 @@
+[project]
+name = "test-conflicts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+ml = ["numpy==1.24.0", "pandas==1.5.0"]
+sci = ["numpy==1.26.0", "scipy==1.11.0"]
+
+[tool.uv]
+conflicts = [
+    [
+        { extra = "ml" },
+        { extra = "sci" },
+    ]
+]
+
+[tool.uv.workspace]
+members = [
+    "conflicts",
+]

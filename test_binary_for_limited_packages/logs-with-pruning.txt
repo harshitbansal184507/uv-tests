@@ -1,0 +1,233 @@
+DEBUG uv 0.11.2 (x86_64-unknown-linux-gnu)
+DEBUG Found project root: `/home/harshit_work/uv-tests/test_binary_for_limited_packages`
+DEBUG No workspace root found, using project root
+DEBUG Reading Python requests from version file at `/home/harshit_work/uv-tests/test_binary_for_limited_packages/.python-version`
+DEBUG Using Python request `3.10` from version file at `.python-version`
+DEBUG Checking for Python environment at: `.venv`
+DEBUG Using request connect timeout of 10s and read timeout of 30s
+DEBUG Searching for Python 3.10 in managed installations or search path
+DEBUG Searching for managed installations at `/home/harshit_work/.local/share/uv/python`
+DEBUG Skipping managed installation `cpython-3.12.13-linux-x86_64-gnu`: does not satisfy `3.10`
+DEBUG Found managed installation `cpython-3.10.20-linux-x86_64-gnu`
+DEBUG Found `cpython-3.10.20-linux-x86_64-gnu` at `/home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10` (managed installations)
+Using CPython 3.10.20
+Creating virtual environment at: .venv
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Using base executable for virtual environment: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Using request connect timeout of 10s and read timeout of 30s
+DEBUG Found 21 packages in `--find-links` entry: file:///home/harshit_work/uv-tests/test_binary_for_limited_packages/hermeto-output/deps/uv
+DEBUG Identified uncached distribution: markupsafe==2.1.5
+DEBUG Identified uncached distribution: requests==2.31.0
+DEBUG Identified uncached distribution: certifi==2026.5.20
+DEBUG Identified uncached distribution: charset-normalizer==3.4.7
+DEBUG Identified uncached distribution: idna==3.18
+DEBUG Identified uncached distribution: urllib3==2.7.0
+DEBUG Unpacking source distribution: charset-normalizer==3.4.7
+DEBUG Unpacking for build: /hermeto-output/deps/uv/charset_normalizer-3.4.7.tar.gz
+DEBUG Unpacking source distribution: urllib3==2.7.0
+DEBUG Unpacking for build: /hermeto-output/deps/uv/urllib3-2.7.0.tar.gz
+DEBUG Unpacking source distribution: idna==3.18
+DEBUG Unpacking for build: /hermeto-output/deps/uv/idna-3.18.tar.gz
+DEBUG Unpacking source distribution: certifi==2026.5.20
+DEBUG Unpacking for build: /hermeto-output/deps/uv/certifi-2026.5.20.tar.gz
+DEBUG Unpacking source distribution: requests==2.31.0
+DEBUG Unpacking for build: /hermeto-output/deps/uv/requests-2.31.0.tar.gz
+   Building certifi==2026.5.20
+DEBUG Building: certifi==2026.5.20
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Reusing existing build environment for: certifi==2026.5.20
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Using base executable for virtual environment: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Resolving build requirements
+DEBUG Solving with installed Python version: 3.10.20
+DEBUG Solving with target Python version: >=3.10.20
+DEBUG Adding direct dependency: setuptools>=42.0.0
+DEBUG No cache entry for: https://pypi.org/simple/setuptools/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/setuptools/
+DEBUG Searching for a compatible version of setuptools (>=42.0.0)
+DEBUG Selecting: setuptools==82.0.1 [compatible] (setuptools-82.0.1-py3-none-any.whl)
+DEBUG Tried 1 versions: setuptools 1
+DEBUG marker environment resolution took 0.011s
+DEBUG Installing in setuptools==82.0.1 in /home/harshit_work/.cache/uv/builds-v0/.tmpX8ytMF
+DEBUG Identified uncached distribution: setuptools==82.0.1
+DEBUG Downloading and building requirement for build: setuptools==82.0.1
+   Building idna==3.18
+DEBUG Building: idna==3.18
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Reusing existing build environment for: idna==3.18
+DEBUG No workspace root found, using project root
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Using base executable for virtual environment: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Resolving build requirements
+DEBUG Solving with installed Python version: 3.10.20
+DEBUG Solving with target Python version: >=3.10.20
+DEBUG Adding direct dependency: flit-core>=3.11, <5
+DEBUG No cache entry for: https://pypi.org/simple/flit-core/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/flit-core/
+DEBUG Searching for a compatible version of flit-core (>=3.11, <5)
+DEBUG Selecting: flit-core==3.12.0 [compatible] (flit_core-3.12.0-py3-none-any.whl)
+DEBUG Tried 1 versions: flit-core 1
+DEBUG marker environment resolution took 0.003s
+DEBUG Installing in flit-core==3.12.0 in /home/harshit_work/.cache/uv/builds-v0/.tmpoBiiWf
+DEBUG Identified uncached distribution: flit-core==3.12.0
+DEBUG Downloading and building requirement for build: flit-core==3.12.0
+   Building requests==2.31.0
+DEBUG Building: requests==2.31.0
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Reusing existing build environment for: requests==2.31.0
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Using base executable for virtual environment: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Resolving build requirements
+DEBUG Solving with installed Python version: 3.10.20
+DEBUG Solving with target Python version: >=3.10.20
+DEBUG Adding direct dependency: setuptools>=40.8.0
+DEBUG Searching for a compatible version of setuptools (>=40.8.0)
+DEBUG Selecting: setuptools==82.0.1 [compatible] (setuptools-82.0.1-py3-none-any.whl)
+DEBUG Tried 1 versions: setuptools 1
+DEBUG marker environment resolution took 0.000s
+DEBUG Installing in setuptools==82.0.1 in /home/harshit_work/.cache/uv/builds-v0/.tmpFY4v69
+DEBUG Identified uncached distribution: setuptools==82.0.1
+DEBUG Downloading and building requirement for build: setuptools==82.0.1
+   Building charset-normalizer==3.4.7
+DEBUG Building: charset-normalizer==3.4.7
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Reusing existing build environment for: charset-normalizer==3.4.7
+DEBUG No workspace root found, using project root
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Using base executable for virtual environment: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Resolving build requirements
+DEBUG Solving with installed Python version: 3.10.20
+DEBUG Solving with target Python version: >=3.10.20
+DEBUG Adding direct dependency: setuptools>=68, <82.1
+DEBUG Searching for a compatible version of setuptools (>=68, <82.1)
+DEBUG Selecting: setuptools==82.0.1 [compatible] (setuptools-82.0.1-py3-none-any.whl)
+DEBUG Tried 1 versions: setuptools 1
+DEBUG marker environment resolution took 0.000s
+DEBUG Installing in setuptools==82.0.1 in /home/harshit_work/.cache/uv/builds-v0/.tmpgPu67H
+DEBUG Identified uncached distribution: setuptools==82.0.1
+DEBUG Downloading and building requirement for build: setuptools==82.0.1
+   Building urllib3==2.7.0
+DEBUG Building: urllib3==2.7.0
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Reusing existing build environment for: urllib3==2.7.0
+DEBUG No workspace root found, using project root
+DEBUG Assessing Python executable as base candidate: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Using base executable for virtual environment: /home/harshit_work/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+DEBUG Resolving build requirements
+DEBUG Solving with installed Python version: 3.10.20
+DEBUG Solving with target Python version: >=3.10.20
+DEBUG Adding direct dependency: hatchling>=1.27.0, <2
+DEBUG Adding direct dependency: hatch-vcs>=0.4.0, <0.6.0
+DEBUG Adding direct dependency: setuptools-scm>=8, <11
+DEBUG Installing build requirement: flit-core==3.12.0
+DEBUG Installing build requirement: setuptools==82.0.1
+DEBUG No cache entry for: https://pypi.org/simple/hatch-vcs/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/hatch-vcs/
+DEBUG No cache entry for: https://pypi.org/simple/setuptools-scm/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/setuptools-scm/
+DEBUG No cache entry for: https://pypi.org/simple/hatchling/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/hatchling/
+DEBUG Searching for a compatible version of hatchling (>=1.27.0, <2)
+DEBUG Selecting: hatchling==1.30.1 [compatible] (hatchling-1.30.1-py3-none-any.whl)
+DEBUG Installing build requirement: setuptools==82.0.1
+DEBUG Installing build requirement: setuptools==82.0.1
+DEBUG Failed to reflink `/home/harshit_work/.cache/uv/archive-v0/egHr6twcKgu5VeVbufWVe/flit_core-3.12.0.dist-info/METADATA` to `/home/harshit_work/.cache/uv/builds-v0/.tmpoBiiWf/lib/python3.10/site-packages/flit_core-3.12.0.dist-info/METADATA`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/home/harshit_work/.cache/uv/archive-v0/kXXNKYcKii6PNqereddUn/distutils-precedence.pth` to `/home/harshit_work/.cache/uv/builds-v0/.tmpX8ytMF/lib/python3.10/site-packages/distutils-precedence.pth`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/home/harshit_work/.cache/uv/archive-v0/kXXNKYcKii6PNqereddUn/distutils-precedence.pth` to `/home/harshit_work/.cache/uv/builds-v0/.tmpFY4v69/lib/python3.10/site-packages/distutils-precedence.pth`: Operation not supported (os error 95), falling back
+DEBUG Failed to reflink `/home/harshit_work/.cache/uv/archive-v0/kXXNKYcKii6PNqereddUn/distutils-precedence.pth` to `/home/harshit_work/.cache/uv/builds-v0/.tmpgPu67H/lib/python3.10/site-packages/distutils-precedence.pth`: Operation not supported (os error 95), falling back
+DEBUG Adding transitive dependency for hatchling==1.30.1: packaging>=24.2
+DEBUG Adding transitive dependency for hatchling==1.30.1: pathspec>=0.10.1
+DEBUG Adding transitive dependency for hatchling==1.30.1: pluggy>=1.0.0
+DEBUG Adding transitive dependency for hatchling==1.30.1: tomli{python_full_version < '3.11'}>=1.2.2
+DEBUG Adding transitive dependency for hatchling==1.30.1: trove-classifiers*
+DEBUG Searching for a compatible version of hatch-vcs (>=0.4.0, <0.6.0)
+DEBUG Selecting: hatch-vcs==0.5.0 [compatible] (hatch_vcs-0.5.0-py3-none-any.whl)
+DEBUG Adding transitive dependency for hatch-vcs==0.5.0: hatchling>=1.1.0
+DEBUG Adding transitive dependency for hatch-vcs==0.5.0: setuptools-scm>=8.2.0
+DEBUG No cache entry for: https://pypi.org/simple/pluggy/
+DEBUG Searching for a compatible version of setuptools-scm (>=8.2.0, <11)
+DEBUG Sending fresh GET request for: https://pypi.org/simple/pluggy/
+DEBUG Selecting: setuptools-scm==10.0.5 [compatible] (setuptools_scm-10.0.5-py3-none-any.whl)
+DEBUG Adding transitive dependency for setuptools-scm==10.0.5: vcs-versioning>=1.0.0.dev0
+DEBUG Adding transitive dependency for setuptools-scm==10.0.5: packaging>=20
+DEBUG Adding transitive dependency for setuptools-scm==10.0.5: setuptools*
+DEBUG Adding transitive dependency for setuptools-scm==10.0.5: tomli{python_full_version < '3.11'}>=1
+DEBUG Adding transitive dependency for setuptools-scm==10.0.5: typing-extensions{python_full_version < '3.11'}*
+DEBUG No cache entry for: https://pypi.org/simple/packaging/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/packaging/
+DEBUG No cache entry for: https://pypi.org/simple/pathspec/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/pathspec/
+DEBUG Searching for a compatible version of packaging (>=24.2)
+DEBUG Selecting: packaging==26.2 [compatible] (packaging-26.2-py3-none-any.whl)
+DEBUG No cache entry for: https://pypi.org/simple/tomli/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/tomli/
+DEBUG No cache entry for: https://pypi.org/simple/trove-classifiers/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/trove-classifiers/
+DEBUG No cache entry for: https://pypi.org/simple/typing-extensions/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/typing-extensions/
+DEBUG No cache entry for: https://pypi.org/simple/vcs-versioning/
+DEBUG Sending fresh GET request for: https://pypi.org/simple/vcs-versioning/
+DEBUG Searching for a compatible version of pathspec (>=0.10.1)
+DEBUG Selecting: pathspec==1.1.1 [compatible] (pathspec-1.1.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of pluggy (>=1.0.0)
+DEBUG Selecting: pluggy==1.6.0 [compatible] (pluggy-1.6.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of tomli{python_full_version < '3.11'} (>=1.2.2)
+DEBUG Selecting: tomli==2.4.1 [compatible] (tomli-2.4.1-py3-none-any.whl)
+DEBUG Adding transitive dependency for tomli==2.4.1: tomli==2.4.1
+DEBUG Adding transitive dependency for tomli==2.4.1: tomli{python_full_version < '3.11'}==2.4.1
+DEBUG Searching for a compatible version of tomli (==2.4.1)
+DEBUG Selecting: tomli==2.4.1 [compatible] (tomli-2.4.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of tomli{python_full_version < '3.11'} (==2.4.1)
+DEBUG Selecting: tomli==2.4.1 [compatible] (tomli-2.4.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of trove-classifiers (*)
+DEBUG Selecting: trove-classifiers==2026.6.1.19 [compatible] (trove_classifiers-2026.6.1.19-py3-none-any.whl)
+DEBUG Searching for a compatible version of vcs-versioning (>=1.0.0.dev0)
+DEBUG No compatible version found for: vcs-versioning
+DEBUG Recording unit propagation conflict of vcs-versioning from incompatibility of (setuptools-scm)
+DEBUG Searching for a compatible version of hatchling (>=1.27.0, <2)
+DEBUG Selecting: hatchling==1.30.1 [compatible] (hatchling-1.30.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of tomli{python_full_version < '3.11'} (>=1.2.2)
+DEBUG Selecting: tomli==2.4.1 [compatible] (tomli-2.4.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of tomli (==2.4.1)
+DEBUG Selecting: tomli==2.4.1 [compatible] (tomli-2.4.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of tomli{python_full_version < '3.11'} (==2.4.1)
+DEBUG Selecting: tomli==2.4.1 [compatible] (tomli-2.4.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of hatch-vcs (>=0.4.0, <0.6.0)
+DEBUG Selecting: hatch-vcs==0.5.0 [compatible] (hatch_vcs-0.5.0-py3-none-any.whl)
+DEBUG Searching for a compatible version of setuptools-scm (>=8.2.0, <10.0.5 | >10.0.5, <11)
+DEBUG No compatible version found for: setuptools-scm
+DEBUG Searching for a compatible version of hatchling (>=1.27.0, <2)
+DEBUG Selecting: hatchling==1.30.1 [compatible] (hatchling-1.30.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of tomli{python_full_version < '3.11'} (>=1.2.2)
+DEBUG Selecting: tomli==2.4.1 [compatible] (tomli-2.4.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of tomli (==2.4.1)
+DEBUG Selecting: tomli==2.4.1 [compatible] (tomli-2.4.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of tomli{python_full_version < '3.11'} (==2.4.1)
+DEBUG Selecting: tomli==2.4.1 [compatible] (tomli-2.4.1-py3-none-any.whl)
+DEBUG Searching for a compatible version of hatch-vcs (>=0.4.0, <0.5.0 | >0.5.0, <0.6.0)
+DEBUG No compatible version found for: hatch-vcs
+  × Failed to download and build `urllib3==2.7.0`
+  ├─▶ Failed to resolve requirements from `build-system.requires`
+  ├─▶ No solution found when resolving: `hatchling>=1.27.0, <2`, `hatch-vcs>=0.4.0, <0.6.0`,
+  │   `setuptools-scm>=8, <11`
+  ╰─▶ Because only hatch-vcs==0.5.0 is available and hatch-vcs==0.5.0 depends on setuptools-scm==10.0.5, we
+      can conclude that hatch-vcs==0.5.0 depends on setuptools-scm==10.0.5.
+      And because only setuptools-scm==10.0.5 is available, we can conclude that hatch-vcs==0.5.0 depends on
+      setuptools-scm==10.0.5. (1)
+
+      Because vcs-versioning was not found in the cache and setuptools-scm==10.0.5 depends on
+      vcs-versioning>=1.0.0.dev0, we can conclude that setuptools-scm==10.0.5 cannot be used.
+      And because we know from (1) that hatch-vcs==0.5.0 depends on setuptools-scm==10.0.5, we can conclude
+      that hatch-vcs==0.5.0 depends on setuptools-scm>=11.
+      And because you require hatch-vcs==0.5.0 and setuptools-scm==10.0.5, we can conclude that your
+      requirements are unsatisfiable.
+
+      hint: `vcs-versioning` was requested with a pre-release marker (e.g., vcs-versioning>=1.0.0.dev0),
+      but build environments can't opt into pre-releases automatically.  Add `vcs-versioning>=1.0.0.dev0`
+      to `build-system.requires`, `[tool.uv.extra-build-dependencies]`, or supply it via `uv build
+      --build-constraint`.
+
+      hint: Packages were unavailable because the network was disabled. When the network is disabled, registry
+      packages may only be read from the cache.
+  help: `urllib3` (v2.7.0) was included because `test-binary-for-limited-packages` (v0.1.0) depends on
+        `requests` (v2.31.0) which depends on `urllib3`

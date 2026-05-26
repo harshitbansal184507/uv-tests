@@ -225,7 +225,7 @@ dependencies = [
 requires-dist = [
     { name = "click", specifier = "==8.1.8" },
     { name = "flask", git = "https://github.com/pallets/flask?rev=3.1.1" },
-    { name = "httpx", url = "file:///hermeto-output/deps/uv/httpx-0.28.1.tar.gz" },
+    { name = "httpx", url = "https://files.pythonhosted.org/packages/b1/df/48c586a5fe32a0f01324ee087459e112ebb7224f646c0b5023f5e79e9956/httpx-0.28.1.tar.gz" },
 ]
 
 [[package]]

@@ -1,0 +1,14 @@
+[project]
+name = "demo"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx @ https://files.pythonhosted.org/packages/b1/df/48c586a5fe32a0f01324ee087459e112ebb7224f646c0b5023f5e79e9956/httpx-0.28.1.tar.gz",
+    "numpy>=2.2.6",
+]
+
+[project.optional-dependencies]
+cli = ["click"]
+
+[dependency-groups]
+test = ["pytest"]

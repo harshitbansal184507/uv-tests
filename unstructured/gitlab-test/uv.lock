@@ -1,0 +1,19 @@
+version = 1
+revision = 3
+requires-python = ">=3.10"
+
+[[package]]
+name = "atpublic"
+version = "7.0.1"
+source = { git = "https://gitlab.com/flufl/public?branch=main#ca72b6a605b625c03dc9cacbf20e760f79a12866" }
+
+[[package]]
+name = "my-project"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "atpublic" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "atpublic", git = "https://gitlab.com/flufl/public?branch=main" }]

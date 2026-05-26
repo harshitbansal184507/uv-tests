@@ -1,0 +1,29 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "click"
+version = "8.1.8"
+source = { registry = "/home/harshit_work/uv-tests/05-uv-sync-registry/hermeto-output/deps/uv" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { path = "/home/harshit_work/uv-tests/05-uv-sync-registry/hermeto-output/deps/uv/click-8.1.8.tar.gz" }
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "/home/harshit_work/uv-tests/05-uv-sync-registry/hermeto-output/deps/uv" }
+sdist = { path = "/home/harshit_work/uv-tests/05-uv-sync-registry/hermeto-output/deps/uv/colorama-0.4.6.tar.gz" }
+
+[[package]]
+name = "sample-project"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "click" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "click", specifier = "==8.1.8" }]

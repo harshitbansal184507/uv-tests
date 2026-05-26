@@ -1,0 +1,78 @@
+{
+  "bomFormat": "CycloneDX",
+  "annotations": [
+    {
+      "subjects": [
+        "pkg:pypi/binary-filter-demo@0.1.0?vcs_url=git%2Bhttps://github.com/harshitbansal184507/uv-tests.git%40b4becd0e489f65b30c59b627780f288c723a902e",
+        "pkg:pypi/markupsafe@2.1.5",
+        "pkg:pypi/requests@2.31.0"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "red hat"
+        }
+      },
+      "timestamp": "2026-06-09T12:00:25Z",
+      "text": "hermeto:backend:pip"
+    }
+  ],
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/binary-filter-demo@0.1.0?vcs_url=git%2Bhttps://github.com/harshitbansal184507/uv-tests.git%40b4becd0e489f65b30c59b627780f288c723a902e",
+      "name": "binary-filter-demo",
+      "purl": "pkg:pypi/binary-filter-demo@0.1.0?vcs_url=git%2Bhttps://github.com/harshitbansal184507/uv-tests.git%40b4becd0e489f65b30c59b627780f288c723a902e",
+      "version": "0.1.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/markupsafe@2.1.5",
+      "name": "markupsafe",
+      "purl": "pkg:pypi/markupsafe@2.1.5",
+      "version": "2.1.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:missing_hash:in_file",
+          "value": "requirements.txt"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/requests@2.31.0",
+      "name": "requests",
+      "purl": "pkg:pypi/requests@2.31.0",
+      "version": "2.31.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        },
+        {
+          "name": "hermeto:missing_hash:in_file",
+          "value": "requirements.txt"
+        }
+      ],
+      "type": "library"
+    }
+  ],
+  "metadata": {
+    "tools": [
+      {
+        "vendor": "red hat",
+        "name": "hermeto"
+      }
+    ]
+  },
+  "specVersion": "1.6",
+  "version": 1
+}

@@ -1,0 +1,10 @@
+[project]
+name = "test-binary-for-limited-packages"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "markupsafe==2.1.5",
+    "requests==2.31.0",
+]

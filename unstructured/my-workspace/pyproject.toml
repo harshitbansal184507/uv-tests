@@ -1,0 +1,19 @@
+[project]
+name = "my-workspace"
+version = "0.1.0"
+requires-python = ">=3.10"    # change this from >=3.12 to >=3.10
+dependencies = [
+    "pkg-a",
+    "pkg-b",
+]
+
+[tool.uv.workspace]
+members = ["pkg-a", "pkg-b"]
+
+[tool.uv.sources]
+pkg-a = { workspace = true }
+pkg-b = { workspace = true }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

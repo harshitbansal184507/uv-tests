@@ -1,0 +1,2 @@
+[sources]
+httpx = { path = "/home/harshit_work/uv-tests/uv-toml-poc/prefetch/httpx-609df7ecc0f7cb10a1c998aa9c269bba77337c5f.tar.gz" }
